@@ -19,16 +19,37 @@ Inclui testes **UI**, testes **API**, uso de **Intercept/Mock**, geração de **
 ## 📂 Estrutura do projeto
 
 ```bash
-cypress/
-  e2e/
-    smoke/
-    regression/
-    api/
-    intercept/
-  fixtures/
-  pages/
-  support/
-  utils/
+cypress-framework-enterprise/
+│ package.json
+│ cypress.config.js
+│ README.md
+│ .gitignore
+│ .github/
+│   └── workflows/
+│       └── cypress.yml
+└── cypress/
+    ├── e2e/
+    │   ├── smoke/
+    │   │   └── login.cy.js
+    │   ├── regression/
+    │   │   └── checkout.cy.js
+    │   ├── api/
+    │   │   └── api-tests.cy.js
+    │   └── intercept/
+    │       └── intercept.cy.js
+    ├── fixtures/
+    │   ├── user.json
+    │   └── checkout.json
+    ├── pages/
+    │   ├── LoginPage.js
+    │   ├── InventoryPage.js
+    │   ├── CartPage.js
+    │   └── CheckoutPage.js
+    ├── support/
+    │   ├── commands.js
+    │   └── e2e.js
+    └── utils/
+        └── routes.js
 ```
 ⚙️ Pré-requisitos
 
@@ -122,3 +143,4 @@ Além disso, o relatório Mochawesome é salvo como Artifact.
 Thales Barbosa
 📌 QA / Automação de Testes
 🔗 GitHub: https://github.com/FalcoNzada
+
