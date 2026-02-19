@@ -31,6 +31,7 @@ cypress-framework-enterprise/
     ├── e2e/
     │   ├── smoke/
     │   │   └── login.cy.js
+    │   │   └── Logout.cy.js
     │   ├── regression/
     │   │   └── checkout.cy.js
     │   ├── api/
@@ -143,4 +144,5 @@ Além disso, o relatório Mochawesome é salvo como Artifact.
 Thales Barbosa
 📌 QA / Automação de Testes
 🔗 GitHub: https://github.com/FalcoNzada
+
 
